@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive movie website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">
+                Filmy<span>HUB</span>
+            </a>
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="search movies">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+            </div>
+            <li class="dropdown">
+              <a href="#links" class="user"><i class="fa-solid fa-user fa-beat"></i></a>
+              <div class="dropdown-content">
+                  <a href="#link1">profile</a>
+                  <a href="login.html">login</a>
+              </div>
+              </li>
+
+            <i class="fa-solid fa-sun"></i>
+            <div class="navbar">
+                <a href="index.html" class="nav-link nav-active">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="nav-link-title">Home</span>
+                </a> 
+                <a href="#home" class="nav-link">
+                    <i class="fa-solid fa-fire"></i>
+                    <span class="nav-link-title">Trending movies</span>
+                </a> 
+                <a href="#home" class="nav-link">
+                    <i class="fa-solid fa-compass"></i>
+                    <span class="nav-link-title">Explore</span>
+                </a> 
+                <a href="quiz-app-remastered/index.html" class="nav-link">
+                  <i class="fa-solid fa-list-check"></i>
+                  <span class="nav-link-title">Quiz</span>
+              </a> 
+                <a href="#home" class="nav-link">
+                    <i class="fa-solid fa-tv"></i>
+                    <span class="nav-link-title"> movies</span>
+                </a> 
+                <a href="index1.html" class="nav-link">
+                    <i class="fa-solid fa-music"></i>
+                    <span class="nav-link-title">music</span>
+                </a>          
+            </div>
+        </div>
+    </header>
+    <div class="play-container container">
+        <img src="play-page/play-background.jpg" alt="" class="play-img">
+        <div class="play-text">
+            <h2>jumanji:Welcome to the jungle</h2>
+            <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+          <div class="tags">
+             <span>Action</span>
+             <span>Adventure</span>
+             <span>4K</span>
+          </div>
+          <a href="#" class="watch-btn">
+            <i class="fa-solid fa-play"></i>
+            <span>Watch the trailer</span>
+        </a>
+        </div>
+    
+    <div class="video-container">
+        <div class="video-box">
+            <video id="myvideo" src="play-page/Jumanji.mp4" controls></video>
+            
+            <i class="fa fa-times"></i>
+
+        </div>
+    </div>
+</div>
+           <div class="about-movie container">
+            <h2>jumanji:welcome to the jungle</h2>
+            <p>Four teens are transported into the video game Jumanji. They now have new bodies, complete with unique strengths and weaknesses. They also have a mission: retrieve a precious gem from an evil warlord and return it to the statue from which it came. If they can't do this, they'll never leave the game.</p>
+
+            <h2 class="cast-heading">Movie cast</h2>
+            <div class="cast">
+                <div class="cast-box">
+                    <img src="play-page/cast1.jpg" alt="" class="cast-img">
+                    <span class="cast-title">Dwayne johnson</span>
+                </div>
+                <div class="cast-box">
+                    <img src="play-page/cast2.jpg" alt="" class="cast-img">
+                    <span class="cast-title">kevin gillan</span>
+                </div>
+                <div class="cast-box">
+                    <img src="play-page/cast3.jpg" alt="" class="cast-img">
+                    <span class="cast-title">kevin hart</span>
+                </div>
+                <div class="cast-box">
+                    <img src="play-page/cast4.jpg" alt="" class="cast-img">
+                    <span class="cast-title">jack black</span>
+                </div>
+                <div class="cast-box">
+                    <img src="play-page/cast5.jpg" alt="" class="cast-img">
+                    <span class="cast-title">nick jonas</span>
+                </div>
+                <div class="cast-box">
+                    <img src="play-page/cast6.jpg" alt="" class="cast-img">
+                    <span class="cast-title">madison iseman</span>
+                </div>
+            </div>
+           </div>
+     <div class="download">
+        <h2 class="download-title">download movie</h2>
+        <div class="download-links">
+            <a href="play-page/Jumanji.mp4" download>480p</a>
+            <a href="play-page/Jumanji.mp4" download>720p</a>
+            <a href="play-page/Jumanji.mp4" download>1080p</a>
+            
+        </div>
+     </div>
+
+     
+
+     <!-- feedback rating starts -->
+     <div class="wrapper">
+       <p id="message">Rate Your Experience</p>
+       <div class="container02">
+         <div class="star-container inactive">
+           <i class="fa-regular fa-star"></i>
+           <span class="number">1</span>
+         </div>
+         <div class="star-container inactive">
+           <i class="fa-regular fa-star"></i>
+           <span class="number">2</span>
+         </div>
+         <div class="star-container inactive">
+           <i class="fa-regular fa-star"></i>
+           <span class="number">3</span>
+         </div>
+         <div class="star-container inactive">
+           <i class="fa-regular fa-star"></i>
+           <span class="number">4</span>
+         </div>
+         <div class="star-container inactive">
+           <i class="fa-regular fa-star"></i>
+           <span class="number">5</span>
+         </div>
+       </div>
+       <button id="submit" disabled>Submit</button>
+       <div id="submit-section" class="hide">
+         <p id="submit-message">Thanks for your feedback</p>
+       </div>
+     </div>
+     <!-- feed back ends -->
+     <section class="movies container" id="movies" style="padding-top: 10em;">
+      <div class="heading">
+        <h2 class="heading-title">Some more related movies</h2>  
+    </div>
+      <div class="movies-content">
+          <div class="movie-box">
+              <img src="img/movie-1.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">jumanji;welcome to juncle</h2>
+                  <span class="movie-type">Action</span>
+                  <a href="play-page.html" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-2.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">hitmans wifes bodyguard</h2>
+                  <span class="movie-type">Action/sci-friction</span>
+                  <a href="#" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-3.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">shang-chi</h2>
+                  <span class="movie-type">Action</span>
+                  <a href="#" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-4.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">eternals</h2>
+                  <span class="movie-type">Action/sci-friction</span>
+                  <a href="#" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-5.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">specture</h2>
+                  <span class="movie-type">Action/sci-friction</span>
+                  <a href="#" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-6.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">money-heist</h2>
+                  <span class="movie-type">Action/sci-friction</span>
+                  <a href="#" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-7.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">the wolverline</h2>
+                  <span class="movie-type">Action</span>
+                  <a href="#" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          <div class="movie-box">
+              <img src="img/movie-8.jpg" alt="" class="movie-box-img">
+              <div class="box-text">
+                  <h2 class="movie-title">jonney english</h2>
+                  <span class="movie-type">Action/comedy</span>
+                  <a href="play-page.html" class="watch-btn play-btn">
+                      <i class="fa-solid fa-play"></i>   
+                  </a>
+              </div>  
+          </div>
+          
+      </div>   
+  </section>
+  <div class="copyright">
+    <p>All Right reserved @2023 copyright act</p>
+ </div>
+    <!--  -->
+   <script src="JAVASCRIPT/cdn.jsdelivr.net_npm_swiper@10.2.0_swiper-bundle.min.js"></script>
+   <script src="JAVASCRIPT/main.js"></script>
+   <script>
+     var elements = document.getElementsByClassName("fa-solid fa-sun");
+
+for (var i = 0; i < elements.length; i++) {
+    elements[i].onclick = function () {
+        document.body.classList.toggle("light-theme");
+    }
+}
+let starContainer = document.querySelectorAll(".star-container");
+const submitButton = document.querySelector("#submit");
+const message = document.querySelector("#message");
+const submitSection = document.querySelector("#submit-section");
+
+//Events For touch and mouse
+let events = {
+  mouse: {
+    over: "click",
+  },
+  touch: {
+    over: "touchstart",
+  },
+};
+
+let deviceType = "";
+//Detect touch device
+const isTouchDevice = () => {
+  try {
+    //We try to create TouchEvent (it would fail for desktops and throw error)
+    document.createEvent("TouchEvent");
+    deviceType = "touch";
+    return true;
+  } catch (e) {
+    deviceType = "mouse";
+    return false;
+  }
+};
+
+isTouchDevice();
+
+starContainer.forEach((element, index) => {
+  element.addEventListener(events[deviceType].over, () => {
+    submitButton.disabled = false;
+    if (element.classList.contains("inactive")) {
+      //Fill Star
+      ratingUpdate(0, index, true);
+    } else {
+      //Regular stars (remove color)
+      ratingUpdate(index, starContainer.length - 1, false);
+    }
+  });
+});
+
+const ratingUpdate = (start, end, active) => {
+  for (let i = start; i <= end; i++) {
+    if (active) {
+      starContainer[i].classList.add("active");
+      starContainer[i].classList.remove("inactive");
+      starContainer[i].firstElementChild.className = "fa-star fa-solid";
+    } else {
+      starContainer[i].classList.remove("active");
+      starContainer[i].classList.add("inactive");
+      starContainer[i].firstElementChild.className = "fa-star fa-regular";
+    }
+  }
+  //Message
+  let activeElements = document.getElementsByClassName("active");
+  if (activeElements.length > 0) {
+    switch (activeElements.length) {
+      case 1:
+        message.innerText = "Terrible";
+        break;
+      case 2:
+        message.innerText = "Bad";
+        break;
+      case 3:
+        message.innerText = "Satisfied";
+        break;
+      case 4:
+        message.innerText = "Good";
+        break;
+      case 5:
+        message.innerText = "Excellent";
+        break;
+    }
+  } else {
+    message.innerText = "";
+  }
+};
+
+submitButton.addEventListener("click", () => {
+  submitSection.classList.remove("hide");
+  submitSection.classList.add("show");
+  submitButton.disabled = true;
+});
+window.onload = () => {
+  submitButton.disabled = true;
+  submitSection.classList.add("hide");
+};
+   </script>
+</body>
+</html>
